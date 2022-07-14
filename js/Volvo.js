@@ -1,10 +1,11 @@
-class Car {
+import { Cars } from "./Cars.js";
+
+class Car extends Cars {
     constructor (name){ 
-        this.name = name;
+       super(name);
         this.age = 25;
-        this.color = 'black';
-        this.wheels = 4;
-        this.owner = "man";
+        this.color = 'RED';
+        
     }
 }
 
